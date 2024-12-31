@@ -7,8 +7,13 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily:{
+      display:[ 'Inter', 'system-ui', 'Clash Display'],
+      body:['Inter', 'system-ui','Satoshi']
+    },
     extend: {
       colors: {
+        primary:{  900: '#2A254B'},
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
